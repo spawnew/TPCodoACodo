@@ -1,0 +1,82 @@
+.principal .container {
+    display: flex;
+	align-items: center;
+    justify-content: space-between; 
+    
+    
+}
+ .principal .container .autito :hover{
+    color: hsl(34, 90%, 45%);
+    border-width: 4px;
+    background-color: #000;
+   
+}
+.principal .container .autito{
+    display:flex;
+    justify-content:space-between;
+   
+    width: 100%;
+    
+     
+}
+.principal .container .micro {
+width: 30%;
+align-items: center;
+background-color:hsl(34, 90%, 45%);
+list-style:none;
+box-sizing: border-box;
+border-width: 2px;
+border-style:solid;
+border-radius:25px 25px 25px 25px;
+height:100%;
+
+
+}
+
+.principal .container .auto {
+    width: 30%;
+    background-color:hsl(34, 90%, 45%);
+    list-style:none;
+box-sizing: border-box;
+border-width: 2px;
+border-style:solid;
+border-radius:25px 25px 25px 25px;
+
+
+    }
+.principal .container .bicicleta {
+    width: 30%;
+    background-color:hsl(34, 90%, 45%);
+    list-style:none;
+    justify-content: center;
+box-sizing: border-box;
+border-width: 2px;
+border-style:solid;
+border-radius:25px 25px 25px 25px;
+
+
+}
+
+   .imge{ 
+    height:50%;
+    
+   } 
+    
+   .descripcion{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+
+
+
+
+
+
+
+
+.autito h2{
+    font-style: bold;
+    font-size: 50px;
+    vertical-align: text-bottom;
+    text-align: center;
+}

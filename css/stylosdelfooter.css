@@ -1,0 +1,50 @@
+ .pie_pagina .centrado .container {
+    
+    background-color: rgb(1, 1, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+  }
+  .container .box1 {
+   
+    width: 20%;	
+    align-items: center;
+
+   
+    
+  
+    
+  }
+    
+
+  .container .box2 {
+
+  align-items: center;
+  color: aliceblue;
+width: 20%;
+font-size: 0.7em;
+}
+.container .box3  {
+  display:flex;
+  width: 30%;
+ 
+  justify-content: space-between;
+
+
+  
+  
+  
+}
+
+
+
+
+  .logo{
+    border-radius:25px ;
+    width:50%;
+   
+  }
+  
+  

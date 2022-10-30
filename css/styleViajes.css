@@ -1,0 +1,72 @@
+body{
+    background-color: hsl(0, 0%, 90%);
+    margin: 0;
+    
+}
+
+html{
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.centrado{
+    margin: 0 auto;
+    padding: 0 .8em;
+  
+}
+
+@media screen and (min-width: 52em) {
+    .centrado {
+        margin: 0 auto;
+        padding: 0 .8em;
+       
+    } }
+    /*fin media query*/    
+
+
+.foto {
+    color: rgb(43, 43, 43);
+  }
+
+.fotoContenido{
+    padding: .4em;
+}
+
+.fotoContenido h3{
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight:normal;
+    font-size: 55%;
+}
+.fotoContenido a{
+    text-decoration: none;
+}
+.fotoContenido p{
+    color:  rgb(43, 43, 43);
+    font-size: 35%;
+}
+
+figure{
+    margin: 0;
+}
+
+img{
+    display: block;
+    border: 0;
+    width: 100%;
+    height: normal;
+}
+
+/*empezamos a dar responsive con flex*/
+
+.foto{
+    background: hsl(0, 0%, 90%);
+    margin-bottom: 2em;
+    width: 20%;
+}
+
+.seccion-completa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

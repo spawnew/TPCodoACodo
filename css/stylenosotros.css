@@ -1,0 +1,40 @@
+
+  body {
+  
+  padding-right: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+   
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  h2 {
+    color: midnightblue;
+    
+    font-family: cursive;
+  }
+  #especial{
+    color: rgb(239, 34, 3);
+    text-align: right;
+  }
+  h3 {
+    color: midnightblue;
+    
+    font-family: cursive;
+  }
+  h4 {
+    color: midnightblue;
+   
+    font-family: cursive;
+  }
+  a :hover{
+    background-color:aliceblue;
+    ;
+  }
+  p{
+    font-size: 50%;
+  }

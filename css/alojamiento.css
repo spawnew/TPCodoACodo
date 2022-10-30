@@ -1,0 +1,40 @@
+.seccion-completa .container{
+    display: flex;
+    border-radius: 25px;
+    text-align: center;
+    justify-self: center;
+}
+.seccion-completa .container img{
+    
+    border-radius: 25px;
+   
+}
+
+
+.seccion-completa .container img:hover{
+    box-sizing: border-box;
+    border-width: 5px;
+    border-style:solid;
+    border-color: rgb(33, 12, 219);
+    width: 150%;
+
+}
+
+.seccion-completa .container h3:hover{
+    font-size: 200px;
+    font-style: oblique;
+}
+.seccion-completa .container p:hover{
+font-style: oblique;
+color: black;
+
+}
+.seccion-completa .container:hover{
+    box-sizing: border-box;
+    border-width: 5px;
+    border-style:solid;
+    border-color: rgb(33, 12, 219);
+    font-size:80%;
+    font-weight: bold;
+    font-style: oblique;
+}

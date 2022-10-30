@@ -1,0 +1,101 @@
+
+
+html{
+    font-size: 66px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: hsl(0, 0%, 90%);
+    margin: 0;
+    
+}
+
+.centrado {
+    margin: 0 auto;
+    padding: 0 1em;
+    width:100%;
+}
+@media screen and (min-width: 52em) {
+    .centrado {
+        max-width: 52em;
+    }
+}
+.Menu-section{
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid hsl(0, 0%);
+}
+
+
+.menu-simple ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: hsl(34, 90%, 45%);
+}
+
+.menu-simple li a {
+    display: block;
+    text-decoration: none;
+    color: hsl(0, 8%, 5%);
+    padding: .5em 1em;
+    border-radius: 100px;
+    border-color: black;
+}
+.menu-simple li a:hover {
+    background: hsl(0, 33%, 3%);
+    color:  hsl(34, 90%, 45%);
+}
+.menu-simple ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menu-simple li{
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+.form .warnings {
+  
+    text-align:center;
+    margin:auto;
+    color:color hsl(34, 90%, 45%);
+                                                 
+}
+.container .form{
+    margin-top: 3em;
+    display: grid;
+    gap:2.5em;
+    background-size: 20px 20px;
+}
+.form{
+  
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    
+    padding: 4.5em 3em;
+   
+    
+    text-align: center;
+}
+.form label{
+    
+
+    font-size: 0.5em;
+    gap: 2.5em;
+
+}
+.form input{
+    width: 100%;
+    background-color:hsl(0, 0%, 90%);
+    color:black;
+    font: size 1rem;
+    padding:.6em .3em;
+
+}
+
+
+ 
+
