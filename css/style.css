@@ -32,6 +32,7 @@ body{
     padding: 0;
     margin: 0;
     background: hsl(34, 90%, 45%);
+    width: 100%;
 }
 
 .menu-simple li a {
@@ -63,39 +64,55 @@ body{
     color:color hsl(34, 90%, 45%);
                                                  
 }
-.container .form{
+
+
+ .container .form {
     margin-top: 3em;
-    display: grid;
-    gap:2.5em;
-    background-size: 20px 20px;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+   
+   
 }
 .form{
-  
-    margin: auto;
-    width: 90%;
-    max-width: 600px;
     
-    padding: 4.5em 3em;
-   
-    
+    width:70%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+    padding-left: 6em;
     text-align: center;
 }
 .form label{
     
 
     font-size: 0.5em;
-    gap: 2.5em;
+   
 
 }
 .form input{
     width: 100%;
     background-color:hsl(0, 0%, 90%);
     color:black;
-    font: size 1rem;
+    font-size:  1rem;
     padding:.6em .3em;
 
 }
 
-
+textarea{
+    width: 100%;
+    background-color:hsl(0, 0%, 90%);
+    color:black;
+    font-size: 1rem;
+    padding:.6em .3em;
+}
  
+ .botonazo{
+    width: 100%;
+    font-size: 1rem;
+ }
 
