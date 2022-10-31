@@ -38,3 +38,60 @@
   p{
     font-size: 50%;
   }
+
+  /* Responsive */
+
+@media(max-width: 600px) {
+
+  .menu-simple ul{
+
+    flex-direction: column;
+		align-items: initial;
+		text-align: center;
+  }
+.pie_pagina .centrado .container {
+  flex-direction: column;
+  align-items: initial;
+  text-align: center;
+    }
+    .container .box3  {
+      flex-direction: column;
+		align-items: initial;
+		text-align: center;
+    }
+    .logo{
+      border-radius:25px ;
+      width:70%;
+     
+    }
+}
+@media(max-width: 500px) {
+
+  .menu-simple ul{
+
+    flex-direction: column;
+		align-items: initial;
+		text-align: center;
+    background: hsl(34, 90%, 45%);
+    height: auto;
+		flex-wrap: nowrap;
+}
+  }
+.pie_pagina .centrado .container {
+  flex-direction: column;
+  align-items: initial;
+  text-align: center;
+    }
+    .container .box3  {
+      flex-direction: column;
+		align-items: initial;
+		text-align: center;
+    }
+    .logo{
+      border-radius:25px ;
+      width:70%;
+     
+    }
+    
+}
+}
