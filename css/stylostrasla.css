@@ -41,6 +41,7 @@ box-sizing: border-box;
 border-width: 2px;
 border-style:solid;
 border-radius:25px 25px 25px 25px;
+height:100%;
 
 
     }
@@ -54,6 +55,7 @@ border-width: 2px;
 border-style:solid;
 border-radius:25px 25px 25px 25px;
 
+height:100%;
 
 }
 
@@ -76,7 +78,7 @@ border-radius:25px 25px 25px 25px;
 
 .autito h2{
     font-style: bold;
-    font-size: 50px;
+    font-size: 1em;
     vertical-align: text-bottom;
     text-align: center;
 }
