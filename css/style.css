@@ -114,5 +114,19 @@ textarea{
  .botonazo{
     width: 100%;
     font-size: 1rem;
+    transition: 1s;
  }
 
+.botonazo:hover{
+background-color: rgb(7, 19, 19);
+color:white;
+transform: rotate(360deg) scale(10);
+
+}
+.titulo{
+    text-align: center;
+    justify-content: center;
+}
+li{
+    list-style: none;
+}

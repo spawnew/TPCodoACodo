@@ -27,6 +27,7 @@
 .seccion-completa .container p:hover{
 font-style: oblique;
 color: black;
+font-size:40px;
 
 }
 .seccion-completa .container:hover{
