@@ -76,7 +76,7 @@
     height: auto;
 		flex-wrap: nowrap;
 }
-  }
+  
 .pie_pagina .centrado .container {
   flex-direction: column;
   align-items: initial;
@@ -93,5 +93,4 @@
      
     }
     
-}
 }
